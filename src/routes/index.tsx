@@ -165,24 +165,30 @@ const MONTHS: MonthData[] = [
     dau: 5881, mau: 16958, retained: 10344,
     comparisons: 176440, completed: 44110, dropped: 132330, convRate: 26.3, avgOrders: 1.65,
     uniqueUsers: 17377, repeatUsers: 9356, repeatRate: 35,
-    affiliate: 7.80, ad: 2.34, total: 10.14, arpt: 22.74, adShare: 30, sessionDuration: 802,
+    affiliate: 16.15, ad: 0, total: 16.15, arpt: 36.61, adShare: 0, sessionDuration: 802,
     categories: [
-      { name: "Cab Rides", tx: 11028, rev: 77196 },
-      { name: "Food Delivery", tx: 8822, rev: 88220 },
-      { name: "Grocery", tx: 6617, rev: 66170 },
-      { name: "Shopping", tx: 6617, rev: 198510 },
-      { name: "Fashion", tx: 4411, rev: 97042 },
-      { name: "Hotels", tx: 3308, rev: 102548 },
-      { name: "Flights", tx: 3307, rev: 109131 },
+      { name: "Cab Rides", tx: 3960, rev: 145000 },
+      { name: "Food Delivery", tx: 6282, rev: 230000 },
+      { name: "Grocery", tx: 6692, rev: 245000 },
+      { name: "Shopping", tx: 3824, rev: 140000 },
+      { name: "Fashion", tx: 6145, rev: 225000 },
+      { name: "Hotels", tx: 6145, rev: 225000 },
+      { name: "Flights", tx: 3141, rev: 115000 },
+      { name: "Healthcare", tx: 3278, rev: 120000 },
+      { name: "Meat & Fresh", tx: 2322, rev: 85000 },
+      { name: "Affiliate Networks", tx: 2321, rev: 85000 },
     ],
     platforms: {
-      "Cab Rides": [{name:"Uber",tx:3860},{name:"Ola",tx:3308},{name:"Rapido",tx:2757},{name:"Namma Yatri",tx:1103}],
-      "Food Delivery": [{name:"Swiggy",tx:4852},{name:"Zomato",tx:3970}],
-      "Grocery": [{name:"Zepto",tx:2316},{name:"Blinkit",tx:1985},{name:"Instamart",tx:1323},{name:"BigBasket",tx:993}],
-      "Shopping": [{name:"Amazon",tx:3639},{name:"Flipkart",tx:2316},{name:"Croma",tx:662}],
-      "Fashion": [{name:"Myntra",tx:1544},{name:"Ajio",tx:882},{name:"Nykaa",tx:662},{name:"Meesho",tx:662},{name:"H&M",tx:353},{name:"Zara",tx:308}],
-      "Hotels": [{name:"Booking.com",tx:827},{name:"MakeMyTrip",tx:662},{name:"Goibibo",tx:662},{name:"Agoda",tx:496},{name:"Trip.com",tx:331},{name:"OYO",tx:330}],
-      "Flights": [{name:"Yatra",tx:827},{name:"Booking.com",tx:661},{name:"GoToGate",tx:496},{name:"FlightNetwork",tx:496},{name:"Air India",tx:496},{name:"TeaFlight",tx:331}],
+      "Cab Rides": [{name:"Ola",tx:1502}, {name:"Uber",tx:546}, {name:"Rapido",tx:1639}, {name:"inDrive",tx:273}],
+      "Food Delivery": [{name:"Swiggy",tx:2322}, {name:"Zomato",tx:3414}, {name:"EatSure",tx:546}],
+      "Grocery": [{name:"Zepto",tx:1912}, {name:"Blinkit",tx:1775}, {name:"Instamart",tx:1229}, {name:"BigBasket",tx:683}, {name:"JioMart",tx:410}, {name:"Flipkart Minutes",tx:683}],
+      "Shopping": [{name:"Amazon",tx:2185}, {name:"Flipkart",tx:1639}],
+      "Fashion": [{name:"Meesho",tx:273}, {name:"Myntra",tx:1502}, {name:"AJIO",tx:1502}, {name:"Nykaa",tx:1092}, {name:"Zara",tx:819}, {name:"H&M",tx:957}],
+      "Hotels": [{name:"MakeMyTrip",tx:546}, {name:"Goibibo",tx:1092}, {name:"Booking.com",tx:1366}, {name:"Agoda",tx:1229}, {name:"Trip.com",tx:683}, {name:"Airbnb",tx:683}, {name:"OYO",tx:410}, {name:"Trivago",tx:136}],
+      "Flights": [{name:"Yatra",tx:410}, {name:"ixigo",tx:546}, {name:"Cleartrip",tx:546}, {name:"EaseMyTrip",tx:546}, {name:"Skyscanner",tx:546}, {name:"AbhiBus",tx:137}, {name:"Happyfares",tx:137}, {name:"Flights24",tx:273}],
+      "Healthcare": [{name:"Tata 1mg",tx:1639}, {name:"MedPlus",tx:956}, {name:"Netmeds",tx:683}],
+      "Meat & Fresh": [{name:"Licious",tx:1093}, {name:"FreshToHome",tx:820}, {name:"TenderCuts",tx:409}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:1775}, {name:"Admitad",tx:546}],
     },
   },
   {
@@ -191,24 +197,30 @@ const MONTHS: MonthData[] = [
     dau: 7646, mau: 22000, retained: 13420,
     comparisons: 229368, completed: 57342, dropped: 172026, convRate: 26.9, avgOrders: 1.65,
     uniqueUsers: 22589, repeatUsers: 12164, repeatRate: 35,
-    affiliate: 10.14, ad: 3.65, total: 13.79, arpt: 23.92, adShare: 36, sessionDuration: 821,
+    affiliate: 15.40, ad: 0, total: 15.40, arpt: 26.86, adShare: 0, sessionDuration: 821,
     categories: [
-      { name: "Cab Rides", tx: 14336, rev: 100352 },
-      { name: "Food Delivery", tx: 11468, rev: 114680 },
-      { name: "Grocery", tx: 8601, rev: 86010 },
-      { name: "Shopping", tx: 8601, rev: 258030 },
-      { name: "Fashion", tx: 5734, rev: 126148 },
-      { name: "Hotels", tx: 4301, rev: 133331 },
-      { name: "Flights", tx: 4301, rev: 141933 },
+      { name: "Cab Rides", tx: 6330, rev: 170000 },
+      { name: "Food Delivery", tx: 3910, rev: 105000 },
+      { name: "Grocery", tx: 7819, rev: 210000 },
+      { name: "Shopping", tx: 7819, rev: 210000 },
+      { name: "Fashion", tx: 9867, rev: 265000 },
+      { name: "Hotels", tx: 8564, rev: 230000 },
+      { name: "Flights", tx: 4282, rev: 115000 },
+      { name: "Healthcare", tx: 3537, rev: 95000 },
+      { name: "Meat & Fresh", tx: 2234, rev: 60000 },
+      { name: "Affiliate Networks", tx: 2980, rev: 80000 },
     ],
     platforms: {
-      "Cab Rides": [{name:"Uber",tx:5018},{name:"Ola",tx:4301},{name:"Rapido",tx:3584},{name:"Namma Yatri",tx:1433}],
-      "Food Delivery": [{name:"Swiggy",tx:6307},{name:"Zomato",tx:5161}],
-      "Grocery": [{name:"Zepto",tx:3010},{name:"Blinkit",tx:2580},{name:"Instamart",tx:1720},{name:"BigBasket",tx:1291}],
-      "Shopping": [{name:"Amazon",tx:4731},{name:"Flipkart",tx:3010},{name:"Croma",tx:860}],
-      "Fashion": [{name:"Myntra",tx:2007},{name:"Ajio",tx:1147},{name:"Nykaa",tx:860},{name:"Meesho",tx:860},{name:"H&M",tx:459},{name:"Zara",tx:401}],
-      "Hotels": [{name:"Booking.com",tx:1075},{name:"MakeMyTrip",tx:860},{name:"Goibibo",tx:860},{name:"Agoda",tx:645},{name:"Trip.com",tx:430},{name:"OYO",tx:431}],
-      "Flights": [{name:"Yatra",tx:1075},{name:"Booking.com",tx:860},{name:"GoToGate",tx:645},{name:"FlightNetwork",tx:645},{name:"Air India",tx:645},{name:"TeaFlight",tx:431}],
+      "Cab Rides": [{name:"Ola",tx:1862}, {name:"Uber",tx:1117}, {name:"Rapido",tx:2234}, {name:"inDrive",tx:1117}],
+      "Food Delivery": [{name:"Swiggy",tx:745}, {name:"Zomato",tx:1676}, {name:"EatSure",tx:1489}],
+      "Grocery": [{name:"Zepto",tx:931}, {name:"Blinkit",tx:2792}, {name:"Instamart",tx:931}, {name:"BigBasket",tx:1489}, {name:"JioMart",tx:558}, {name:"Flipkart Minutes",tx:1118}],
+      "Shopping": [{name:"Amazon",tx:4282}, {name:"Flipkart",tx:3537}],
+      "Fashion": [{name:"Meesho",tx:2979}, {name:"Myntra",tx:1303}, {name:"AJIO",tx:2234}, {name:"Nykaa",tx:1862}, {name:"Zara",tx:559}, {name:"H&M",tx:930}],
+      "Hotels": [{name:"MakeMyTrip",tx:2606}, {name:"Goibibo",tx:1303}, {name:"Booking.com",tx:1862}, {name:"Agoda",tx:1676}, {name:"Trip.com",tx:186}, {name:"Airbnb",tx:372}, {name:"OYO",tx:186}, {name:"Trivago",tx:373}],
+      "Flights": [{name:"Yatra",tx:372}, {name:"ixigo",tx:1117}, {name:"Cleartrip",tx:931}, {name:"EaseMyTrip",tx:931}, {name:"Skyscanner",tx:186}, {name:"AbhiBus",tx:186}, {name:"Happyfares",tx:372}, {name:"Flights24",tx:187}],
+      "Healthcare": [{name:"Tata 1mg",tx:2048}, {name:"MedPlus",tx:745}, {name:"Netmeds",tx:744}],
+      "Meat & Fresh": [{name:"Licious",tx:1489}, {name:"FreshToHome",tx:558}, {name:"TenderCuts",tx:187}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:745}, {name:"Admitad",tx:2235}],
     },
   },
   {
@@ -217,50 +229,190 @@ const MONTHS: MonthData[] = [
     dau: 8924, mau: 25400, retained: 16764,
     comparisons: 268752, completed: 68144, dropped: 200608, convRate: 27.6, avgOrders: 1.72,
     uniqueUsers: 25400, repeatUsers: 9906, repeatRate: 39,
-    affiliate: 12.04, ad: 4.44, total: 16.48, arpt: 24.18, adShare: 27, sessionDuration: 848,
+    affiliate: 15.10, ad: 0, total: 15.10, arpt: 22.16, adShare: 0, sessionDuration: 848,
     categories: [
-      { name: "Cab Rides", tx: 17036, rev: 119252 },
-      { name: "Food Delivery", tx: 13629, rev: 136290 },
-      { name: "Grocery", tx: 10222, rev: 102220 },
-      { name: "Shopping", tx: 10222, rev: 306660 },
-      { name: "Fashion", tx: 6814, rev: 149908 },
-      { name: "Hotels", tx: 5111, rev: 158441 },
-      { name: "Flights", tx: 5110, rev: 168630 },
+      { name: "Cab Rides", tx: 6769, rev: 150000 },
+      { name: "Food Delivery", tx: 10154, rev: 225000 },
+      { name: "Grocery", tx: 9703, rev: 215000 },
+      { name: "Shopping", tx: 7221, rev: 160000 },
+      { name: "Fashion", tx: 11056, rev: 245000 },
+      { name: "Hotels", tx: 9703, rev: 215000 },
+      { name: "Flights", tx: 5867, rev: 130000 },
+      { name: "Healthcare", tx: 3610, rev: 80000 },
+      { name: "Meat & Fresh", tx: 2708, rev: 60000 },
+      { name: "Affiliate Networks", tx: 1353, rev: 30000 },
     ],
     platforms: {
-      "Cab Rides": [{name:"Uber",tx:5963},{name:"Ola",tx:5111},{name:"Rapido",tx:4259},{name:"Namma Yatri",tx:1703}],
-      "Food Delivery": [{name:"Swiggy",tx:7496},{name:"Zomato",tx:6133}],
-      "Grocery": [{name:"Zepto",tx:3578},{name:"Blinkit",tx:3067},{name:"Instamart",tx:2044},{name:"BigBasket",tx:1533}],
-      "Shopping": [{name:"Amazon",tx:5622},{name:"Flipkart",tx:3578},{name:"Croma",tx:1022}],
-      "Fashion": [{name:"Myntra",tx:2385},{name:"Ajio",tx:1363},{name:"Nykaa",tx:1022},{name:"Meesho",tx:1022},{name:"H&M",tx:545},{name:"Zara",tx:477}],
-      "Hotels": [{name:"Booking.com",tx:1278},{name:"MakeMyTrip",tx:1022},{name:"Goibibo",tx:1022},{name:"Agoda",tx:767},{name:"Trip.com",tx:511},{name:"OYO",tx:511}],
-      "Flights": [{name:"Yatra",tx:1278},{name:"Booking.com",tx:1022},{name:"GoToGate",tx:767},{name:"FlightNetwork",tx:767},{name:"Air India",tx:767},{name:"TeaFlight",tx:509}],
+      "Cab Rides": [{name:"Ola",tx:1128}, {name:"Uber",tx:1128}, {name:"Rapido",tx:2708}, {name:"inDrive",tx:1805}],
+      "Food Delivery": [{name:"Swiggy",tx:5190}, {name:"Zomato",tx:2482}, {name:"EatSure",tx:2482}],
+      "Grocery": [{name:"Zepto",tx:2482}, {name:"Blinkit",tx:3385}, {name:"Instamart",tx:1128}, {name:"BigBasket",tx:677}, {name:"JioMart",tx:1128}, {name:"Flipkart Minutes",tx:903}],
+      "Shopping": [{name:"Amazon",tx:3159}, {name:"Flipkart",tx:4062}],
+      "Fashion": [{name:"Meesho",tx:3384}, {name:"Myntra",tx:1579}, {name:"AJIO",tx:677}, {name:"Nykaa",tx:2482}, {name:"Zara",tx:1128}, {name:"H&M",tx:1806}],
+      "Hotels": [{name:"MakeMyTrip",tx:2257}, {name:"Goibibo",tx:2031}, {name:"Booking.com",tx:1580}, {name:"Agoda",tx:1805}, {name:"Trip.com",tx:903}, {name:"Airbnb",tx:451}, {name:"OYO",tx:451}, {name:"Trivago",tx:225}],
+      "Flights": [{name:"Yatra",tx:1580}, {name:"ixigo",tx:1580}, {name:"Cleartrip",tx:226}, {name:"EaseMyTrip",tx:1128}, {name:"Skyscanner",tx:451}, {name:"AbhiBus",tx:451}, {name:"Happyfares",tx:226}, {name:"Flights24",tx:225}],
+      "Healthcare": [{name:"Tata 1mg",tx:1128}, {name:"MedPlus",tx:1128}, {name:"Netmeds",tx:1354}],
+      "Meat & Fresh": [{name:"Licious",tx:677}, {name:"FreshToHome",tx:1128}, {name:"TenderCuts",tx:903}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:902}, {name:"Admitad",tx:451}],
     },
   },
   {
     key: "2026-07", label: "July 2026",
-    downloads: 58284, play: 458, web: 7106, apk: 13248,
-    dau: 9246, mau: 26180, retained: 17543,
-    comparisons: 92386, completed: 24015, dropped: 68371, convRate: 28.1, avgOrders: 1.74,
-    uniqueUsers: 26180, repeatUsers: 10733, repeatRate: 41,
-    affiliate: 4.30, ad: 1.56, total: 5.86, arpt: 24.40, adShare: 27, sessionDuration: 860,
+    downloads: 62740, play: 1400, web: 21300, apk: 40040,
+    dau: 9800, mau: 27800, retained: 18348,
+    comparisons: 294000, completed: 76440, dropped: 217560, convRate: 28.1, avgOrders: 1.74,
+    uniqueUsers: 27800, repeatUsers: 11398, repeatRate: 41,
+    affiliate: 15.50, ad: 0, total: 15.50, arpt: 20.28, adShare: 0, sessionDuration: 860,
     categories: [
-      { name: "Cab Rides", tx: 6005, rev: 42035 },
-      { name: "Food Delivery", tx: 4803, rev: 48030 },
-      { name: "Grocery", tx: 3602, rev: 36020 },
-      { name: "Shopping", tx: 3602, rev: 108060 },
-      { name: "Fashion", tx: 2401, rev: 52822 },
-      { name: "Hotels", tx: 1801, rev: 55831 },
-      { name: "Flights", tx: 1801, rev: 59433 },
+      { name: "Cab Rides", tx: 7644, rev: 155000 },
+      { name: "Food Delivery", tx: 9123, rev: 185000 },
+      { name: "Grocery", tx: 11836, rev: 240000 },
+      { name: "Shopping", tx: 8877, rev: 180000 },
+      { name: "Fashion", tx: 14055, rev: 285000 },
+      { name: "Hotels", tx: 11836, rev: 240000 },
+      { name: "Flights", tx: 3945, rev: 80000 },
+      { name: "Healthcare", tx: 4192, rev: 85000 },
+      { name: "Meat & Fresh", tx: 2959, rev: 60000 },
+      { name: "Affiliate Networks", tx: 1973, rev: 40000 },
     ],
     platforms: {
-      "Cab Rides": [{name:"Uber",tx:2105},{name:"Ola",tx:1800},{name:"Rapido",tx:1500},{name:"Namma Yatri",tx:600}],
-      "Food Delivery": [{name:"Swiggy",tx:2644},{name:"Zomato",tx:2159}],
-      "Grocery": [{name:"Zepto",tx:1262},{name:"Blinkit",tx:1080},{name:"Instamart",tx:720},{name:"BigBasket",tx:540}],
-      "Shopping": [{name:"Amazon",tx:1982},{name:"Flipkart",tx:1260},{name:"Croma",tx:360}],
-      "Fashion": [{name:"Myntra",tx:841},{name:"Ajio",tx:480},{name:"Nykaa",tx:360},{name:"Meesho",tx:360},{name:"H&M",tx:192},{name:"Zara",tx:168}],
-      "Hotels": [{name:"Booking.com",tx:451},{name:"MakeMyTrip",tx:360},{name:"Goibibo",tx:360},{name:"Agoda",tx:270},{name:"Trip.com",tx:180},{name:"OYO",tx:180}],
-      "Flights": [{name:"Yatra",tx:451},{name:"Booking.com",tx:360},{name:"GoToGate",tx:270},{name:"FlightNetwork",tx:270},{name:"Air India",tx:270},{name:"TeaFlight",tx:180}],
+      "Cab Rides": [{name:"Ola",tx:2219}, {name:"Uber",tx:4438}, {name:"Rapido",tx:493}, {name:"inDrive",tx:494}],
+      "Food Delivery": [{name:"Swiggy",tx:3699}, {name:"Zomato",tx:3205}, {name:"EatSure",tx:2219}],
+      "Grocery": [{name:"Zepto",tx:2219}, {name:"Blinkit",tx:3206}, {name:"Instamart",tx:3452}, {name:"BigBasket",tx:740}, {name:"JioMart",tx:740}, {name:"Flipkart Minutes",tx:1479}],
+      "Shopping": [{name:"Amazon",tx:3452}, {name:"Flipkart",tx:5425}],
+      "Fashion": [{name:"Meesho",tx:3945}, {name:"Myntra",tx:2219}, {name:"AJIO",tx:2959}, {name:"Nykaa",tx:1973}, {name:"Zara",tx:1233}, {name:"H&M",tx:1726}],
+      "Hotels": [{name:"MakeMyTrip",tx:3452}, {name:"Goibibo",tx:2712}, {name:"Booking.com",tx:2219}, {name:"Agoda",tx:1233}, {name:"Trip.com",tx:986}, {name:"Airbnb",tx:247}, {name:"OYO",tx:740}, {name:"Trivago",tx:247}],
+      "Flights": [{name:"Yatra",tx:493}, {name:"ixigo",tx:493}, {name:"Cleartrip",tx:740}, {name:"EaseMyTrip",tx:740}, {name:"Skyscanner",tx:247}, {name:"AbhiBus",tx:493}, {name:"Happyfares",tx:493}, {name:"Flights24",tx:246}],
+      "Healthcare": [{name:"Tata 1mg",tx:1480}, {name:"MedPlus",tx:1233}, {name:"Netmeds",tx:1479}],
+      "Meat & Fresh": [{name:"Licious",tx:740}, {name:"FreshToHome",tx:1973}, {name:"TenderCuts",tx:246}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:986}, {name:"Admitad",tx:987}],
+    },
+  },
+  {
+    key: "2026-08", label: "August 2026",
+    downloads: 66504, play: 1995, web: 22611, apk: 41898,
+    dau: 10388, mau: 29468, retained: 19448,
+    comparisons: 311640, completed: 81026, dropped: 230614, convRate: 28.3, avgOrders: 1.78,
+    uniqueUsers: 29468, repeatUsers: 12376, repeatRate: 42,
+    affiliate: 14.20, ad: 0, total: 14.20, arpt: 17.53, adShare: 0, sessionDuration: 870,
+    categories: [
+      { name: "Cab Rides", tx: 7703, rev: 135000 },
+      { name: "Food Delivery", tx: 10842, rev: 190000 },
+      { name: "Grocery", tx: 13695, rev: 240000 },
+      { name: "Shopping", tx: 10842, rev: 190000 },
+      { name: "Fashion", tx: 8274, rev: 145000 },
+      { name: "Hotels", tx: 11983, rev: 210000 },
+      { name: "Flights", tx: 7703, rev: 135000 },
+      { name: "Healthcare", tx: 2568, rev: 45000 },
+      { name: "Meat & Fresh", tx: 3138, rev: 55000 },
+      { name: "Affiliate Networks", tx: 4278, rev: 75000 },
+    ],
+    platforms: {
+      "Cab Rides": [{name:"Ola",tx:1997}, {name:"Uber",tx:4565}, {name:"Rapido",tx:571}, {name:"inDrive",tx:570}],
+      "Food Delivery": [{name:"Swiggy",tx:3994}, {name:"Zomato",tx:5706}, {name:"EatSure",tx:1142}],
+      "Grocery": [{name:"Zepto",tx:3709}, {name:"Blinkit",tx:856}, {name:"Instamart",tx:2853}, {name:"BigBasket",tx:2568}, {name:"JioMart",tx:2853}, {name:"Flipkart Minutes",tx:856}],
+      "Shopping": [{name:"Amazon",tx:9130}, {name:"Flipkart",tx:1712}],
+      "Fashion": [{name:"Meesho",tx:1712}, {name:"Myntra",tx:2282}, {name:"AJIO",tx:1712}, {name:"Nykaa",tx:1427}, {name:"Zara",tx:285}, {name:"H&M",tx:856}],
+      "Hotels": [{name:"MakeMyTrip",tx:3424}, {name:"Goibibo",tx:1712}, {name:"Booking.com",tx:1997}, {name:"Agoda",tx:1141}, {name:"Trip.com",tx:1712}, {name:"Airbnb",tx:571}, {name:"OYO",tx:1141}, {name:"Trivago",tx:285}],
+      "Flights": [{name:"Yatra",tx:1712}, {name:"ixigo",tx:1426}, {name:"Cleartrip",tx:1426}, {name:"EaseMyTrip",tx:1141}, {name:"Skyscanner",tx:856}, {name:"AbhiBus",tx:571}, {name:"Happyfares",tx:571}],
+      "Healthcare": [{name:"Tata 1mg",tx:1427}, {name:"MedPlus",tx:856}, {name:"Netmeds",tx:285}],
+      "Meat & Fresh": [{name:"Licious",tx:856}, {name:"FreshToHome",tx:856}, {name:"TenderCuts",tx:1426}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:1711}, {name:"Admitad",tx:2567}],
+    },
+  },
+  {
+    key: "2026-09", label: "September 2026",
+    downloads: 69014, play: 2070, web: 23464, apk: 43480,
+    dau: 10780, mau: 30580, retained: 20182,
+    comparisons: 323400, completed: 84084, dropped: 239316, convRate: 28.4, avgOrders: 1.8,
+    uniqueUsers: 30580, repeatUsers: 12843, repeatRate: 42,
+    affiliate: 15.70, ad: 0, total: 15.70, arpt: 18.67, adShare: 0, sessionDuration: 875,
+    categories: [
+      { name: "Cab Rides", tx: 10711, rev: 200000 },
+      { name: "Food Delivery", tx: 9372, rev: 175000 },
+      { name: "Grocery", tx: 9908, rev: 185000 },
+      { name: "Shopping", tx: 13389, rev: 250000 },
+      { name: "Fashion", tx: 9640, rev: 180000 },
+      { name: "Hotels", tx: 9372, rev: 175000 },
+      { name: "Flights", tx: 6962, rev: 130000 },
+      { name: "Healthcare", tx: 2678, rev: 50000 },
+      { name: "Meat & Fresh", tx: 5356, rev: 100000 },
+      { name: "Affiliate Networks", tx: 6696, rev: 125000 },
+    ],
+    platforms: {
+      "Cab Rides": [{name:"Ola",tx:1071}, {name:"Uber",tx:4552}, {name:"Rapido",tx:2410}, {name:"inDrive",tx:2678}],
+      "Food Delivery": [{name:"Swiggy",tx:4017}, {name:"Zomato",tx:2678}, {name:"EatSure",tx:2677}],
+      "Grocery": [{name:"Zepto",tx:536}, {name:"Blinkit",tx:1874}, {name:"Instamart",tx:2142}, {name:"BigBasket",tx:1607}, {name:"JioMart",tx:2142}, {name:"Flipkart Minutes",tx:1607}],
+      "Shopping": [{name:"Amazon",tx:5088}, {name:"Flipkart",tx:8301}],
+      "Fashion": [{name:"Meesho",tx:2678}, {name:"Myntra",tx:1339}, {name:"AJIO",tx:1339}, {name:"Nykaa",tx:2946}, {name:"Zara",tx:803}, {name:"H&M",tx:535}],
+      "Hotels": [{name:"MakeMyTrip",tx:1071}, {name:"Goibibo",tx:2945}, {name:"Booking.com",tx:1874}, {name:"Agoda",tx:536}, {name:"Trip.com",tx:1071}, {name:"Airbnb",tx:1071}, {name:"OYO",tx:536}, {name:"Trivago",tx:268}],
+      "Flights": [{name:"Yatra",tx:2142}, {name:"ixigo",tx:1874}, {name:"Cleartrip",tx:536}, {name:"EaseMyTrip",tx:1071}, {name:"Skyscanner",tx:803}, {name:"Happyfares",tx:268}, {name:"Flights24",tx:268}],
+      "Healthcare": [{name:"Tata 1mg",tx:536}, {name:"MedPlus",tx:1607}, {name:"Netmeds",tx:535}],
+      "Meat & Fresh": [{name:"Licious",tx:2410}, {name:"FreshToHome",tx:1339}, {name:"TenderCuts",tx:1607}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:3750}, {name:"Admitad",tx:2946}],
+    },
+  },
+  {
+    key: "2026-10", label: "October 2026",
+    downloads: 67759, play: 2032, web: 23038, apk: 42689,
+    dau: 10584, mau: 30024, retained: 19815,
+    comparisons: 317520, completed: 82555, dropped: 234965, convRate: 28.3, avgOrders: 1.78,
+    uniqueUsers: 30024, repeatUsers: 12610, repeatRate: 42,
+    affiliate: 13.90, ad: 0, total: 13.90, arpt: 16.84, adShare: 0, sessionDuration: 872,
+    categories: [
+      { name: "Cab Rides", tx: 8315, rev: 140000 },
+      { name: "Food Delivery", tx: 10988, rev: 185000 },
+      { name: "Grocery", tx: 14551, rev: 245000 },
+      { name: "Shopping", tx: 4751, rev: 80000 },
+      { name: "Fashion", tx: 10691, rev: 180000 },
+      { name: "Hotels", tx: 11581, rev: 195000 },
+      { name: "Flights", tx: 6830, rev: 115000 },
+      { name: "Healthcare", tx: 4454, rev: 75000 },
+      { name: "Meat & Fresh", tx: 7127, rev: 120000 },
+      { name: "Affiliate Networks", tx: 3267, rev: 55000 },
+    ],
+    platforms: {
+      "Cab Rides": [{name:"Ola",tx:1188}, {name:"Uber",tx:3564}, {name:"Rapido",tx:1188}, {name:"inDrive",tx:2375}],
+      "Food Delivery": [{name:"Swiggy",tx:4455}, {name:"Zomato",tx:5346}, {name:"EatSure",tx:1187}],
+      "Grocery": [{name:"Zepto",tx:4157}, {name:"Blinkit",tx:2376}, {name:"Instamart",tx:2970}, {name:"BigBasket",tx:2376}, {name:"JioMart",tx:1782}, {name:"Flipkart Minutes",tx:890}],
+      "Shopping": [{name:"Amazon",tx:2969}, {name:"Flipkart",tx:1782}],
+      "Fashion": [{name:"Meesho",tx:3564}, {name:"Myntra",tx:891}, {name:"AJIO",tx:2673}, {name:"Nykaa",tx:594}, {name:"Zara",tx:2673}, {name:"H&M",tx:296}],
+      "Hotels": [{name:"MakeMyTrip",tx:3563}, {name:"Goibibo",tx:1485}, {name:"Booking.com",tx:1485}, {name:"Agoda",tx:2079}, {name:"Trip.com",tx:891}, {name:"Airbnb",tx:891}, {name:"OYO",tx:891}, {name:"Trivago",tx:296}],
+      "Flights": [{name:"Yatra",tx:2673}, {name:"ixigo",tx:594}, {name:"Cleartrip",tx:1485}, {name:"Skyscanner",tx:1188}, {name:"Happyfares",tx:297}, {name:"Flights24",tx:593}],
+      "Healthcare": [{name:"Tata 1mg",tx:1782}, {name:"MedPlus",tx:2375}, {name:"Netmeds",tx:297}],
+      "Meat & Fresh": [{name:"Licious",tx:2673}, {name:"FreshToHome",tx:2673}, {name:"TenderCuts",tx:1781}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:891}, {name:"Admitad",tx:2376}],
+    },
+  },
+  {
+    key: "2026-11", label: "November 2026",
+    downloads: 65877, play: 1976, web: 22398, apk: 41503,
+    dau: 10290, mau: 29190, retained: 19265,
+    comparisons: 308700, completed: 80262, dropped: 228438, convRate: 28.2, avgOrders: 1.76,
+    uniqueUsers: 29190, repeatUsers: 12259, repeatRate: 42,
+    affiliate: 13.05, ad: 0, total: 13.05, arpt: 16.26, adShare: 0, sessionDuration: 868,
+    categories: [
+      { name: "Cab Rides", tx: 6458, rev: 105000 },
+      { name: "Food Delivery", tx: 12608, rev: 205000 },
+      { name: "Grocery", tx: 13531, rev: 220000 },
+      { name: "Shopping", tx: 5535, rev: 90000 },
+      { name: "Fashion", tx: 10763, rev: 175000 },
+      { name: "Hotels", tx: 9841, rev: 160000 },
+      { name: "Flights", tx: 7995, rev: 130000 },
+      { name: "Healthcare", tx: 3075, rev: 50000 },
+      { name: "Meat & Fresh", tx: 3690, rev: 60000 },
+      { name: "Affiliate Networks", tx: 6766, rev: 110000 },
+    ],
+    platforms: {
+      "Cab Rides": [{name:"Ola",tx:3075}, {name:"Uber",tx:615}, {name:"Rapido",tx:2153}, {name:"inDrive",tx:615}],
+      "Food Delivery": [{name:"Swiggy",tx:5228}, {name:"Zomato",tx:4305}, {name:"EatSure",tx:3075}],
+      "Grocery": [{name:"Zepto",tx:3690}, {name:"Blinkit",tx:1845}, {name:"Instamart",tx:2768}, {name:"BigBasket",tx:2460}, {name:"JioMart",tx:615}, {name:"Flipkart Minutes",tx:2153}],
+      "Shopping": [{name:"Amazon",tx:3690}, {name:"Flipkart",tx:1845}],
+      "Fashion": [{name:"Meesho",tx:923}, {name:"Myntra",tx:3075}, {name:"AJIO",tx:615}, {name:"Nykaa",tx:1538}, {name:"Zara",tx:2460}, {name:"H&M",tx:2152}],
+      "Hotels": [{name:"MakeMyTrip",tx:3075}, {name:"Goibibo",tx:923}, {name:"Booking.com",tx:1538}, {name:"Agoda",tx:1845}, {name:"Trip.com",tx:923}, {name:"Airbnb",tx:308}, {name:"OYO",tx:615}, {name:"Trivago",tx:614}],
+      "Flights": [{name:"Yatra",tx:922}, {name:"ixigo",tx:2152}, {name:"Cleartrip",tx:1538}, {name:"EaseMyTrip",tx:1538}, {name:"Skyscanner",tx:615}, {name:"AbhiBus",tx:615}, {name:"Flights24",tx:615}],
+      "Healthcare": [{name:"Tata 1mg",tx:922}, {name:"MedPlus",tx:615}, {name:"Netmeds",tx:1538}],
+      "Meat & Fresh": [{name:"Licious",tx:2152}, {name:"FreshToHome",tx:308}, {name:"TenderCuts",tx:1230}],
+      "Affiliate Networks": [{name:"EarnKaro",tx:3691}, {name:"Admitad",tx:3075}],
     },
   },
 ];
@@ -268,10 +420,22 @@ const MONTHS: MonthData[] = [
 const CAT_COLORS: Record<string, string> = {
   "Cab Rides": "#f59e0b", "Food Delivery": "#ef4444", "Grocery": "#10b981",
   "Shopping": "#4f46e5", "Fashion": "#ec4899", "Hotels": "#7c3aed", "Flights": "#0ea5e9",
+  "Healthcare": "#14b8a6", "Meat & Fresh": "#f97316", "Affiliate Networks": "#6366f1",
 };
 
+// Only show months up to the real current calendar month as reporting periods.
+// Later months from the payment register are kept as planned/forecast only.
+const CURRENT_MONTH_KEY = (() => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+})();
+const REPORTING_MONTHS = MONTHS.filter((m) => m.key <= CURRENT_MONTH_KEY);
+const PLANNED_MONTHS = MONTHS.filter((m) => m.key > CURRENT_MONTH_KEY);
+const DEFAULT_MONTH_KEY = REPORTING_MONTHS[REPORTING_MONTHS.length - 1]?.key ?? MONTHS[MONTHS.length - 1].key;
+
 // ---- Real-time / live feed ----
-const dauSeries = Array.from({ length: 24 }, (_, i) => ({
+// Only include hours up to the current hour so the chart does not invent future times today.
+const dauSeries = Array.from({ length: new Date().getHours() + 1 }, (_, i) => ({
   t: `${i}:00`, dau: 1200 + Math.round(Math.sin(i / 3.2) * 700 + Math.random() * 350) + (i > 17 ? 800 : 0),
 }));
 const cities = [
@@ -384,10 +548,10 @@ function Dashboard() {
   const [apiCount, setApiCount] = useState(28412);
   const [feed, setFeed] = useState(liveFeedSeed);
   const [view, setView] = useState<View>("overview");
-  const [monthKey, setMonthKey] = useState(MONTHS[MONTHS.length - 1].key);
-  const month = useMemo(() => MONTHS.find((m) => m.key === monthKey)!, [monthKey]);
-  const monthIdx = MONTHS.findIndex((m) => m.key === monthKey);
-  const prev = monthIdx > 0 ? MONTHS[monthIdx - 1] : null;
+  const [monthKey, setMonthKey] = useState(DEFAULT_MONTH_KEY);
+  const month = useMemo(() => REPORTING_MONTHS.find((m) => m.key === monthKey) ?? REPORTING_MONTHS[REPORTING_MONTHS.length - 1], [monthKey]);
+  const monthIdx = REPORTING_MONTHS.findIndex((m) => m.key === monthKey);
+  const prev = monthIdx > 0 ? REPORTING_MONTHS[monthIdx - 1] : null;
   const pct = (cur: number, p?: number | null) => (p && p > 0 ? +(((cur - p) / p) * 100).toFixed(1) : 0);
 
   useEffect(() => {
@@ -563,7 +727,7 @@ function Dashboard() {
 // ============ OVERVIEW VIEW ============
 function OverviewView({ month, prev, pct, monthKey, setMonthKey, feed }: any) {
   const m: MonthData = month;
-  const revSeries = MONTHS.map((x) => ({
+  const revSeries = REPORTING_MONTHS.map((x) => ({
     d: x.label.split(" ")[0].slice(0, 3) + " " + x.label.split(" ")[1].slice(2),
     affiliate: +(x.affiliate * 100000).toFixed(0),
     ad: +(x.ad * 100000).toFixed(0),
@@ -603,7 +767,7 @@ function OverviewView({ month, prev, pct, monthKey, setMonthKey, feed }: any) {
               onChange={(e) => setMonthKey(e.target.value)}
               className="ml-1 cursor-pointer rounded border-0 bg-transparent pr-1 text-xs font-medium text-slate-900 focus:outline-none focus:ring-0"
             >
-              {MONTHS.map((x) => (
+              {REPORTING_MONTHS.map((x) => (
                 <option key={x.key} value={x.key}>{x.label}</option>
               ))}
             </select>
@@ -639,21 +803,21 @@ function OverviewView({ month, prev, pct, monthKey, setMonthKey, feed }: any) {
 
       {/* KPIs */}
       <section id="overview" className="grid grid-cols-2 gap-4 md:grid-cols-4 scroll-mt-20">
-        <Kpi icon={Download} label="Total Downloads" value={fmt(m.downloads)} delta={pct(m.downloads, prev?.downloads)} sub={`Play ${fmt(m.play)} · Web ${fmt(m.web)} · APK ${fmt(m.apk)}`} spark={MONTHS.map(x => x.downloads / 1000)} color="#4f46e5" />
-        <Kpi icon={Users} label="Monthly Active Users" value={fmt(m.mau)} delta={pct(m.mau, prev?.mau)} sub={`Retained ${fmt(m.retained)} (${Math.round((m.retained / m.mau) * 100)}%)`} spark={MONTHS.map(x => x.mau / 1000)} color="#0ea5e9" />
-        <Kpi icon={Activity} label="Daily Active Users" value={fmt(m.dau)} delta={pct(m.dau, prev?.dau)} sub={`Retained ${fmt(m.retained)}`} spark={MONTHS.map(x => x.dau / 100)} color="#10b981" />
-        <Kpi icon={Clock} label="Avg Session Duration" value={fmtSec(m.sessionDuration)} delta={pct(m.sessionDuration, prev?.sessionDuration)} sub={prev ? `${m.sessionDuration > prev.sessionDuration ? "+" : ""}${m.sessionDuration - prev.sessionDuration}s vs last period` : ""} spark={MONTHS.map(x => x.sessionDuration / 60)} color="#7c3aed" />
-        <Kpi icon={MousePointerClick} label="Total Comparisons" value={fmt(m.comparisons)} delta={pct(m.comparisons, prev?.comparisons)} sub={`${fmt(m.completed)} completed`} spark={MONTHS.map(x => x.comparisons / 10000)} color="#f59e0b" />
-        <Kpi icon={IndianRupee} label="Total Revenue" value={lakh(m.total)} delta={pct(m.total, prev?.total)} sub={`Affiliate ${lakh(m.affiliate)} · Ad ${lakh(m.ad)}`} spark={MONTHS.map(x => x.total)} color="#4f46e5" />
-        <Kpi icon={Target} label="Conversion Rate" value={`${m.convRate}%`} delta={pct(m.convRate, prev?.convRate)} sub="redirect → txn" spark={MONTHS.map(x => x.convRate)} color="#0ea5e9" />
-        <Kpi icon={Wallet} label="Avg Revenue / Transaction" value={`₹${m.arpt.toFixed(2)}`} delta={0.2} sub={`Avg Orders/User ${m.avgOrders}`} spark={MONTHS.map(x => x.arpt)} color="#10b981" />
+        <Kpi icon={Download} label="Total Downloads" value={fmt(m.downloads)} delta={pct(m.downloads, prev?.downloads)} sub={`Play ${fmt(m.play)} · Web ${fmt(m.web)} · APK ${fmt(m.apk)}`} spark={REPORTING_MONTHS.map(x => x.downloads / 1000)} color="#4f46e5" />
+        <Kpi icon={Users} label="Monthly Active Users" value={fmt(m.mau)} delta={pct(m.mau, prev?.mau)} sub={`Retained ${fmt(m.retained)} (${Math.round((m.retained / m.mau) * 100)}%)`} spark={REPORTING_MONTHS.map(x => x.mau / 1000)} color="#0ea5e9" />
+        <Kpi icon={Activity} label="Daily Active Users" value={fmt(m.dau)} delta={pct(m.dau, prev?.dau)} sub={`Retained ${fmt(m.retained)}`} spark={REPORTING_MONTHS.map(x => x.dau / 100)} color="#10b981" />
+        <Kpi icon={Clock} label="Avg Session Duration" value={fmtSec(m.sessionDuration)} delta={pct(m.sessionDuration, prev?.sessionDuration)} sub={prev ? `${m.sessionDuration > prev.sessionDuration ? "+" : ""}${m.sessionDuration - prev.sessionDuration}s vs last period` : ""} spark={REPORTING_MONTHS.map(x => x.sessionDuration / 60)} color="#7c3aed" />
+        <Kpi icon={MousePointerClick} label="Total Comparisons" value={fmt(m.comparisons)} delta={pct(m.comparisons, prev?.comparisons)} sub={`${fmt(m.completed)} completed`} spark={REPORTING_MONTHS.map(x => x.comparisons / 10000)} color="#f59e0b" />
+        <Kpi icon={IndianRupee} label="Total Revenue" value={lakh(m.total)} delta={pct(m.total, prev?.total)} sub={`Affiliate ${lakh(m.affiliate)} · Ad ${lakh(m.ad)}`} spark={REPORTING_MONTHS.map(x => x.total)} color="#4f46e5" />
+        <Kpi icon={Target} label="Conversion Rate" value={`${m.convRate}%`} delta={pct(m.convRate, prev?.convRate)} sub="redirect → txn" spark={REPORTING_MONTHS.map(x => x.convRate)} color="#0ea5e9" />
+        <Kpi icon={Wallet} label="Avg Revenue / Transaction" value={`₹${m.arpt.toFixed(2)}`} delta={0.2} sub={`Avg Orders/User ${m.avgOrders}`} spark={REPORTING_MONTHS.map(x => x.arpt)} color="#10b981" />
       </section>
 
       {/* Revenue chart (multi-month) */}
       <section id="revenue" className="grid grid-cols-1 gap-4 xl:grid-cols-3 scroll-mt-20">
         <Panel className="xl:col-span-2 p-5">
           <SectionTitle
-            kicker="Revenue Analytics · Nov 2025 – May 2026"
+            kicker="Revenue Analytics · Nov 2025 – Sep 2026"
             action={
               <div className="flex items-center gap-3 text-[11px] text-slate-500">
                 <span className="flex items-center gap-1"><span className="h-2 w-2 rounded-full bg-indigo-600" /> Affiliate</span>
@@ -1054,50 +1218,50 @@ function Snap({ k, v }: { k: string; v: string }) {
 
 // ============ PARTNERSHIP COMMISSION VIEW ============
 const COMMISSION_STRUCTURE = [
-  { cat: "Cab Rides", partners: "Uber, Ola, Rapido, Namma Yatri", commission: "₹7 per completed ride", color: "#f59e0b" },
-  { cat: "Food Delivery", partners: "Swiggy, Zomato", commission: "₹10 per completed order", color: "#ef4444" },
-  { cat: "Grocery Delivery", partners: "Zepto, Blinkit, Instamart, BigBasket", commission: "₹10 per completed order", color: "#10b981" },
-  { cat: "Shopping / E-Commerce", partners: "Amazon, Flipkart, Croma", commission: "₹26–₹35 per completed order", color: "#4f46e5" },
-  { cat: "Fashion & Beauty", partners: "Myntra, Nykaa, Ajio, Meesho, H&M, Zara", commission: "₹20–₹25 per completed order", color: "#ec4899" },
-  { cat: "Hotel Booking", partners: "Trip.com, Goibibo, MakeMyTrip, Booking.com, Agoda, OYO", commission: "₹30–₹32 per completed booking", color: "#7c3aed" },
-  { cat: "Flight Booking", partners: "Air India, Yatra, TeaFlight, GloryHoliday, GoToGate, FlightNetwork, Booking.com", commission: "₹30–₹35 per completed booking", color: "#0ea5e9" },
+  { cat: "Cab Rides", partners: "Uber, Ola, Rapido, inDrive", commission: "₹7 per completed ride", color: "#f59e0b" },
+  { cat: "Food Delivery", partners: "Swiggy, Zomato, EatSure", commission: "₹10 per completed order", color: "#ef4444" },
+  { cat: "Grocery Delivery", partners: "Zepto, Blinkit, Instamart, BigBasket, JioMart, Flipkart Minutes", commission: "₹10 per completed order", color: "#10b981" },
+  { cat: "Shopping / E-Commerce", partners: "Amazon, Flipkart", commission: "₹26–₹35 per completed order", color: "#4f46e5" },
+  { cat: "Fashion & Beauty", partners: "Myntra, Nykaa, AJIO, Meesho, H&M, Zara", commission: "₹20–₹25 per completed order", color: "#ec4899" },
+  { cat: "Hotel Booking", partners: "Trip.com, Goibibo, MakeMyTrip, Booking.com, Agoda, OYO, Airbnb, Trivago", commission: "₹30–₹32 per completed booking", color: "#7c3aed" },
+  { cat: "Flight / Travel", partners: "Yatra, ixigo, Cleartrip, EaseMyTrip, Skyscanner, AbhiBus, Happyfares, Flights24", commission: "₹30–₹35 per completed booking", color: "#0ea5e9" },
+  { cat: "Healthcare", partners: "Tata 1mg, MedPlus, Netmeds", commission: "₹15–₹25 per completed order", color: "#14b8a6" },
+  { cat: "Meat & Fresh", partners: "Licious, FreshToHome, TenderCuts", commission: "₹15–₹20 per completed order", color: "#f97316" },
+  { cat: "Affiliate Networks", partners: "EarnKaro, Admitad", commission: "Network share of partner commissions", color: "#6366f1" },
 ];
 
 const SETTLEMENT_CYCLE = [
-  { rev: "November 2025", recv: "February 2026", status: "Received", amount: "₹1.99 L" },
-  { rev: "December 2025", recv: "March 2026", status: "Received", amount: "₹2.59 L" },
-  { rev: "January 2026", recv: "April 2026", status: "Received", amount: "₹3.36 L" },
-  { rev: "February 2026", recv: "May 2026", status: "Received", amount: "₹4.37 L" },
-  { rev: "March 2026", recv: "June 2026", status: "Pending", amount: "₹6.00 L" },
-  { rev: "April 2026", recv: "July 2026", status: "Pending", amount: "₹7.80 L" },
-  { rev: "May 2026", recv: "August 2026", status: "Pending", amount: "₹10.14 L" },
+  { rev: "April 2026", recv: "July 2026", status: "Received", amount: "₹16.15 L" },
+  { rev: "May 2026", recv: "August 2026", status: "Received", amount: "₹15.40 L" },
+  { rev: "June 2026", recv: "September 2026", status: "Pending", amount: "₹15.10 L" },
+  { rev: "July 2026", recv: "October 2026", status: "Pending", amount: "₹15.50 L" },
+  { rev: "August 2026", recv: "November 2026", status: "Pending", amount: "₹14.20 L" },
+  { rev: "September 2026", recv: "December 2026", status: "Pending", amount: "₹15.70 L" },
+  { rev: "October 2026", recv: "January 2027", status: "Planned", amount: "₹13.90 L" },
+  { rev: "November 2026", recv: "February 2027", status: "Planned", amount: "₹13.05 L" },
 ];
 
 const DIRECT_PARTNERS = [
-  { cat: "Cab Rides", vendors: ["Uber", "Ola"] },
+  { cat: "Cab Rides", vendors: ["Uber", "Ola", "Rapido", "inDrive"] },
   { cat: "Shopping / E-Commerce", vendors: ["Amazon", "Flipkart"] },
-  { cat: "Fashion & Beauty", vendors: ["Myntra", "Nykaa", "Ajio"] },
-  { cat: "Hotel Booking", vendors: ["Booking.com", "Agoda", "Trip.com", "OYO", "MakeMyTrip", "Goibibo"] },
-  { cat: "Flight Booking", vendors: ["Air India"] },
+  { cat: "Fashion & Beauty", vendors: ["Myntra", "Nykaa", "AJIO", "Meesho", "H&M", "Zara"] },
+  { cat: "Hotel Booking", vendors: ["Booking.com", "Agoda", "Trip.com", "OYO", "MakeMyTrip", "Goibibo", "Airbnb", "Trivago"] },
+  { cat: "Food Delivery", vendors: ["Swiggy", "Zomato", "EatSure"] },
+  { cat: "Grocery", vendors: ["Zepto", "Blinkit", "Instamart", "BigBasket", "JioMart", "Flipkart Minutes"] },
+  { cat: "Healthcare", vendors: ["Tata 1mg", "MedPlus", "Netmeds"] },
+  { cat: "Meat & Fresh", vendors: ["Licious", "FreshToHome", "TenderCuts"] },
 ];
 const INDIRECT_PARTNERS = [
-  { network: "Cuelinks", groups: [
-    { cat: "Food Delivery", vendors: ["Swiggy", "Zomato"] },
-    { cat: "Grocery", vendors: ["Zepto", "Blinkit", "Instamart", "BigBasket"] },
-    { cat: "Cab Rides", vendors: ["Rapido"] },
-    { cat: "Shopping", vendors: ["Croma"] },
-    { cat: "Travel", vendors: ["Yatra", "RedBus"] },
-    { cat: "Pharmacy", vendors: ["NetMeds", "Apollo Pharmacy", "MedPlus"] },
-  ]},
   { network: "Admitad", groups: [
+    { cat: "Affiliate network payouts", vendors: ["Admitad"] },
     { cat: "Fashion", vendors: ["H&M", "Zara"] },
-    { cat: "Flights", vendors: ["GoToGate", "FlightNetwork"] },
   ]},
   { network: "EarnKaro", groups: [
-    { cat: "Shopping & Fashion", vendors: ["Amazon", "Flipkart", "Myntra", "Ajio", "Meesho"] },
+    { cat: "Affiliate network payouts", vendors: ["EarnKaro"] },
+    { cat: "Shopping & Fashion", vendors: ["Amazon", "Flipkart", "Myntra", "AJIO", "Meesho"] },
   ]},
-  { network: "vCommission", groups: [
-    { cat: "Travel & Commerce", vendors: ["Yatra", "Goibibo", "MakeMyTrip", "Booking.com", "Agoda"] },
+  { network: "Travel aggregators", groups: [
+    { cat: "Flights / Travel", vendors: ["Yatra", "ixigo", "Cleartrip", "EaseMyTrip", "Skyscanner", "AbhiBus", "Happyfares", "Flights24"] },
   ]},
 ];
 
@@ -1120,7 +1284,7 @@ function PartnershipView() {
       <section className="grid grid-cols-2 gap-4 md:grid-cols-4">
         <Panel className="p-5"><div className="text-[10px] uppercase tracking-wider text-slate-500">Direct Partners</div><div className="mt-1 text-2xl font-semibold">13+</div><div className="text-[11px] text-slate-500">across 5 categories</div></Panel>
         <Panel className="p-5"><div className="text-[10px] uppercase tracking-wider text-slate-500">Indirect Partners</div><div className="mt-1 text-2xl font-semibold">20+</div><div className="text-[11px] text-slate-500">via 4 affiliate networks</div></Panel>
-        <Panel className="p-5"><div className="text-[10px] uppercase tracking-wider text-slate-500">Commission Received</div><div className="mt-1 text-2xl font-semibold text-emerald-700">₹{totalReceived.toFixed(2)} L</div><div className="text-[11px] text-slate-500">Feb–May 2026</div></Panel>
+        <Panel className="p-5"><div className="text-[10px] uppercase tracking-wider text-slate-500">Commission Received</div><div className="mt-1 text-2xl font-semibold text-emerald-700">₹{totalReceived.toFixed(2)} L</div><div className="text-[11px] text-slate-500">Jul–Aug 2026</div></Panel>
         <Panel className="p-5"><div className="text-[10px] uppercase tracking-wider text-slate-500">Settlement Cycle</div><div className="mt-1 text-2xl font-semibold">Net 90</div><div className="text-[11px] text-slate-500">days · affiliate</div></Panel>
       </section>
 
@@ -1162,6 +1326,8 @@ function PartnershipView() {
                   <td className="px-3 py-2.5 text-right">
                     {s.status === "Received" ? (
                       <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-medium text-emerald-700"><CheckCircle2 className="h-3 w-3" /> Received</span>
+                    ) : s.status === "Planned" ? (
+                      <span className="inline-flex items-center gap-1 rounded-full bg-slate-100 px-2 py-0.5 text-[10px] font-medium text-slate-600"><Calendar className="h-3 w-3" /> Planned</span>
                     ) : (
                       <span className="inline-flex items-center gap-1 rounded-full bg-amber-50 px-2 py-0.5 text-[10px] font-medium text-amber-700"><AlertCircle className="h-3 w-3" /> Pending</span>
                     )}
@@ -1216,21 +1382,26 @@ function PartnershipView() {
 
 // ============ RECEIVABLES VIEW ============
 function ReceivablesView() {
-  const rows = MONTHS.map((x) => ({ month: x.label, aff: x.affiliate, ad: x.ad, total: x.total }));
+  const rows = REPORTING_MONTHS.map((x) => ({ month: x.label, aff: x.affiliate, ad: x.ad, total: x.total }));
+  const plannedRows = PLANNED_MONTHS.map((x) => ({ month: x.label, aff: x.affiliate, ad: x.ad, total: x.total }));
   const totalAff = rows.reduce((a, b) => a + b.aff, 0);
   const totalAd = rows.reduce((a, b) => a + b.ad, 0);
   const grandTotal = totalAff + totalAd;
+  const plannedTotal = plannedRows.reduce((a, b) => a + b.total, 0);
   const received = [
-    { settle: "February 2026", period: "November 2025 Revenue", amt: 2.10 },
-    { settle: "March 2026", period: "December 2025 Revenue", amt: 2.73 },
-    { settle: "April 2026", period: "January 2026 Revenue", amt: 3.55 },
-    { settle: "May 2026", period: "February 2026 Revenue", amt: 4.62 },
+    { settle: "July 2026", period: "April 2026 Revenue", amt: 16.15 },
+    { settle: "August 2026", period: "May 2026 Revenue", amt: 15.40 },
   ];
   const totalReceived = received.reduce((a, b) => a + b.amt, 0);
   const outstanding = [
-    { rev: "March 2026", due: "June 2026", amt: 6.00 },
-    { rev: "April 2026", due: "July 2026", amt: 7.80 },
-    { rev: "May 2026", due: "August 2026", amt: 10.14 },
+    { rev: "June 2026", due: "September 2026", amt: 15.10 },
+    { rev: "July 2026", due: "October 2026", amt: 15.50 },
+    { rev: "August 2026", due: "November 2026", amt: 14.20 },
+    { rev: "September 2026", due: "December 2026", amt: 15.70 },
+  ];
+  const plannedOutstanding = [
+    { rev: "October 2026", due: "January 2027", amt: 13.90 },
+    { rev: "November 2026", due: "February 2027", amt: 13.05 },
   ];
   const totalOutstanding = outstanding.reduce((a, b) => a + b.amt, 0);
 
@@ -1258,7 +1429,7 @@ function ReceivablesView() {
 
       {/* Revenue Generated table */}
       <Panel className="p-5">
-        <SectionTitle kicker="Revenue Generated · Nov 2025 – May 2026">Monthly breakdown</SectionTitle>
+        <SectionTitle kicker="Revenue Generated · Nov 2025 – Sep 2026">Monthly breakdown to date</SectionTitle>
         <div className="overflow-hidden rounded-lg border border-slate-200">
           <table className="w-full text-[13px]">
             <thead className="bg-slate-50 text-[10px] uppercase tracking-wider text-slate-500">
@@ -1274,7 +1445,7 @@ function ReceivablesView() {
                 </tr>
               ))}
               <tr className="bg-slate-50 font-semibold">
-                <td className="px-3 py-2.5">Total</td>
+                <td className="px-3 py-2.5">Total to date</td>
                 <td className="px-3 py-2.5 text-right tabular-nums">{lakh(totalAff)}</td>
                 <td className="px-3 py-2.5 text-right tabular-nums">{lakh(totalAd)}</td>
                 <td className="px-3 py-2.5 text-right tabular-nums">{lakh(grandTotal)}</td>
@@ -1282,6 +1453,28 @@ function ReceivablesView() {
             </tbody>
           </table>
         </div>
+        {plannedRows.length > 0 && (
+          <div className="mt-4 overflow-hidden rounded-lg border border-dashed border-slate-300">
+            <div className="bg-slate-50 px-3 py-2 text-[10px] font-semibold uppercase tracking-wider text-slate-500">Planned from payment register · not yet earned</div>
+            <table className="w-full text-[13px]">
+              <tbody className="divide-y divide-slate-100">
+                {plannedRows.map((r) => (
+                  <tr key={r.month} className="hover:bg-slate-50/60">
+                    <td className="px-3 py-2.5 font-medium text-slate-600">{r.month}</td>
+                    <td className="px-3 py-2.5 text-right tabular-nums text-slate-500">{lakh(r.aff)}</td>
+                    <td className="px-3 py-2.5 text-right tabular-nums text-slate-500">{r.ad > 0 ? lakh(r.ad) : "₹0"}</td>
+                    <td className="px-3 py-2.5 text-right tabular-nums font-semibold text-slate-600">{lakh(r.total)}</td>
+                  </tr>
+                ))}
+                <tr className="bg-slate-50 font-semibold text-slate-600">
+                  <td className="px-3 py-2.5">Planned total</td>
+                  <td className="px-3 py-2.5 text-right tabular-nums" colSpan={2} />
+                  <td className="px-3 py-2.5 text-right tabular-nums">{lakh(plannedTotal)}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        )}
       </Panel>
 
       {/* Received + Outstanding */}
@@ -1332,6 +1525,22 @@ function ReceivablesView() {
               </tbody>
             </table>
           </div>
+          {plannedOutstanding.length > 0 && (
+            <div className="mt-3 overflow-hidden rounded-lg border border-dashed border-slate-300">
+              <div className="bg-slate-50 px-3 py-2 text-[10px] font-semibold uppercase tracking-wider text-slate-500">Planned future months</div>
+              <table className="w-full text-[13px]">
+                <tbody className="divide-y divide-slate-100">
+                  {plannedOutstanding.map((r) => (
+                    <tr key={r.rev}>
+                      <td className="px-3 py-2.5 font-medium text-slate-600">{r.rev}</td>
+                      <td className="px-3 py-2.5 text-slate-500">{r.due}</td>
+                      <td className="px-3 py-2.5 text-right tabular-nums font-semibold text-slate-600">{lakh(r.amt)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </Panel>
       </section>
 
@@ -1341,7 +1550,7 @@ function ReceivablesView() {
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-3">
           <div className="lg:col-span-2 h-64">
             <ResponsiveContainer>
-              <BarChart data={MONTHS.map(x => ({ m: x.label.split(" ")[0].slice(0,3), ad: x.ad }))} margin={{ left: 0, right: 8, top: 12, bottom: 4 }}>
+              <BarChart data={REPORTING_MONTHS.map(x => ({ m: x.label.split(" ")[0].slice(0,3), ad: x.ad }))} margin={{ left: 0, right: 8, top: 12, bottom: 4 }}>
                 <CartesianGrid stroke="#eef2f7" vertical={false} />
                 <XAxis dataKey="m" tick={{ fontSize: 11, fill: "#64748b" }} axisLine={false} tickLine={false} />
                 <YAxis tick={{ fontSize: 11, fill: "#64748b" }} axisLine={false} tickLine={false} width={48} tickFormatter={(v) => `₹${v}L`} />
@@ -1351,7 +1560,7 @@ function ReceivablesView() {
             </ResponsiveContainer>
           </div>
           <div className="space-y-2">
-            {MONTHS.filter(x => x.ad > 0).map((x) => (
+            {REPORTING_MONTHS.filter(x => x.ad > 0).map((x) => (
               <div key={x.key} className="flex items-center justify-between rounded-md border border-slate-200 bg-slate-50/60 px-3 py-2">
                 <span className="text-[12px] font-medium text-slate-700">{x.label}</span>
                 <span className="text-[13px] font-semibold tabular-nums text-amber-700">{lakh(x.ad)}</span>
@@ -1367,22 +1576,23 @@ function ReceivablesView() {
 
       {/* Recognition Timeline */}
       <Panel className="p-5">
-        <SectionTitle kicker="Revenue Recognition Timeline">Cycle status as of May 2026</SectionTitle>
+        <SectionTitle kicker="Revenue Recognition Timeline">Cycle status as of September 2026</SectionTitle>
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
           {[
-            { r: "November 2025", s: "Received Feb 2026", ok: true },
-            { r: "December 2025", s: "Received March 2026", ok: true },
-            { r: "January 2026", s: "Received April 2026", ok: true },
-            { r: "February 2026", s: "Received May 2026", ok: true },
-            { r: "March 2026", s: "Pending · Due June 2026", ok: false },
-            { r: "April 2026", s: "Pending · Due July 2026", ok: false },
-            { r: "May 2026", s: "Pending · Due August 2026", ok: false },
+            { r: "April 2026", s: "Received July 2026 · ₹16.15 L", ok: true, planned: false },
+            { r: "May 2026", s: "Received August 2026 · ₹15.40 L", ok: true, planned: false },
+            { r: "June 2026", s: "Pending · Due September 2026 · ₹15.10 L", ok: false, planned: false },
+            { r: "July 2026", s: "Pending · Due October 2026 · ₹15.50 L", ok: false, planned: false },
+            { r: "August 2026", s: "Pending · Due November 2026 · ₹14.20 L", ok: false, planned: false },
+            { r: "September 2026", s: "Pending · Due December 2026 · ₹15.70 L", ok: false, planned: false },
+            { r: "October 2026", s: "Planned · Due January 2027 · ₹13.90 L", ok: false, planned: true },
+            { r: "November 2026", s: "Planned · Due February 2027 · ₹13.05 L", ok: false, planned: true },
           ].map((t) => (
-            <div key={t.r} className={`flex items-center gap-3 rounded-lg border px-3 py-2.5 ${t.ok ? "border-emerald-200 bg-emerald-50/40" : "border-amber-200 bg-amber-50/40"}`}>
-              {t.ok ? <CheckCircle2 className="h-4 w-4 text-emerald-600" /> : <AlertCircle className="h-4 w-4 text-amber-600" />}
+            <div key={t.r} className={`flex items-center gap-3 rounded-lg border px-3 py-2.5 ${t.ok ? "border-emerald-200 bg-emerald-50/40" : t.planned ? "border-slate-200 bg-slate-50/60" : "border-amber-200 bg-amber-50/40"}`}>
+              {t.ok ? <CheckCircle2 className="h-4 w-4 text-emerald-600" /> : t.planned ? <Calendar className="h-4 w-4 text-slate-500" /> : <AlertCircle className="h-4 w-4 text-amber-600" />}
               <div className="flex-1">
                 <div className="text-[13px] font-medium text-slate-900">{t.r} Affiliate Revenue</div>
-                <div className={`text-[11px] ${t.ok ? "text-emerald-700" : "text-amber-700"}`}>{t.s}</div>
+                <div className={`text-[11px] ${t.ok ? "text-emerald-700" : t.planned ? "text-slate-500" : "text-amber-700"}`}>{t.s}</div>
               </div>
             </div>
           ))}
